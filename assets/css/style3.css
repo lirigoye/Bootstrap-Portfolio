@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-    color: white;
+    color:white;
     background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 260px;
@@ -15,9 +15,9 @@ hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
     border: 0;
-    border-top: 3px solid;
+    border-top: 2px solid;
     position: relative;
-    bottom: -645px;
+    bottom: 0px;
     color:lightgray;
 }
 
@@ -30,24 +30,21 @@ h2 {
     text-align: left;
     max-width: 960px;
     margin: 0 auto;
-    background-color: white;
+    background-color:white;
     border: 1px solid gray;
-    padding: 30px;  
-    border-top: #cccccc 1px solid;  
+    padding: 30px;
 }
 
-.container-header {
-    text-align: left;
-    background-color: #ffffff;
-    border-top: #cccccc 1px solid;
-    overflow: auto;
-    color: #777777;
-    margin-bottom: 25px;
+.card-text {
+    text-align: center;
+    background-color: #4aaaa5;
+    color:white;
 }
+
 .footer {
     text-align: center;
     background-color: #666666;
-    height: 40px;
+    height: 45px;
     position: relative;
-    bottom: -45px;
+    bottom: -3px;
 }
